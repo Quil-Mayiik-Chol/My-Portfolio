@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-section">
+                <img src="Nyok.jpg" alt="Nyok Mayiik Chol Bilkuei" class="profile-photo">
+                <h2 class="profile-name">Nyok Mayiik Chol Bilkuei</h2>
+            </div>
+            <h1>Welcome to My Portfolio</h1>
+            <p>Web &amp; Database Developer | Networking Engineer | Cybersecurity Engineer | IT Systems Engineer</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate technology professional with expertise in multiple domains:</p>
+                <ul>
+                    <li>Web and Database Development</li>
+                    <li>Networking Engineering</li>
+                    <li>Cybersecurity Engineering</li>
+                    <li>IT Systems Engineering</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Professional Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Web & Database Development</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>PHP, MySQL</li>
+                    <li>Database Design</li>
+                    <li>API Development</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-network-wired"></i>
+                <h3>Networking Engineering</h3>
+                <ul>
+                    <li>Network Design</li>
+                    <li>Routing & Switching</li>
+                    <li>Network Security</li>
+                    <li>Protocol Analysis</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cybersecurity Engineering</h3>
+                <ul>
+                    <li>Security Assessment</li>
+                    <li>Penetration Testing</li>
+                    <li>Security Architecture</li>
+                    <li>Incident Response</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-server"></i>
+                <h3>IT Systems Engineering</h3>
+                <ul>
+                    <li>Systems Design</li>
+                    <li>Infrastructure Management</li>
+                    <li>Cloud Computing</li>
+                    <li>Virtualization</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form action="send_email.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" name="save">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Professional Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
