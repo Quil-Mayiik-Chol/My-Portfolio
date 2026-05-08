@@ -1,6 +1,6 @@
 // IMPORTANT: Replace these with your actual Supabase project URL and anon key
 // You can find these in your Supabase Dashboard -> Settings -> API
-const supabaseUrl = 'https://pctfvisrctttkowbglhu.supabase.co';
+const supabaseUrl = 'https://pctfvisrctttkowbglhu.supabase.co/Contact';
 const supabaseKey = 'sb_publishable_3xxIC7CGgmyyxtKiG2MtqA_W7wBxahm';
 const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 
